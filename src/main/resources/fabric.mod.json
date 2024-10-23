@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "chat-eval",
+  "version": "${version}",
+  "name": "Chat Evaluator",
+  "description": "Evaluate expressions in chat",
+  "authors": [
+    "phonis"
+  ],
+  "contact": {
+    "sources": "https://github.com/alex-huff/chat-eval"
+  },
+  "license": "0BSD",
+  "icon": "assets/chat-eval/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.alexfh.chat_eval.ChatEval"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "chat-eval.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.9",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
