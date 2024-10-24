@@ -16,6 +16,9 @@
   "entrypoints": {
     "client": [
       "com.alexfh.chat_eval.ChatEval"
+    ],
+    "modmenu": [
+      "com.alexfh.chat_eval.config.ChatEvalModMenuImpl"
     ]
   },
   "mixins": [
@@ -29,5 +32,8 @@
     "minecraft": "~1.20.4",
     "java": ">=17",
     "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
   }
 }

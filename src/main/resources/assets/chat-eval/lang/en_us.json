@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.chat-eval.title": "Chat Evaluator Config",
+  "category.chat-eval": "Chat Evaluator",
+  "text.autoconfig.chat-eval.option.shouldCancelMessages": "Cancel messages with invalid expressions",
+  "text.autoconfig.chat-eval.option.defaultDecimalPlaces": "Round final result decimal places",
+  "text.autoconfig.chat-eval.option.chars": "Characters used to surround and escape expressions respectively"
+}

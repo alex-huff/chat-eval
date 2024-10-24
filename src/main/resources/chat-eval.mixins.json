@@ -3,7 +3,8 @@
   "package": "com.alexfh.chat_eval.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "ExampleMixin"
+    "ChatInputSuggestorMixin",
+    "ChatScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
